@@ -68,8 +68,18 @@
         </select>
       </div>
       <div class="mb-3">
-        <label class="form-label">Comentário</label>
-        <textarea class="form-control" rows="3"></textarea>
+        <label class="form-label">Quanto você gostaria de usar Linux numa escala de 0 a 10?</label>
+        <div class="d-flex justify-content-between px-1 mb-1">    
+          <span class="w-25 text-start">0</span>
+          <span class="w-25 text-center">5</span>
+          <span class="w-25 text-end">10</span>
+        </div>
+        <input type="range" class="form-range" min="0" max="10">
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Se já usou Linux, deixe aqui um relato sobre a sua experiência</label>
+        <textarea class="form-control"></textarea>
       </div>
       <button type="submit" class="btn btn-success"><i class="bi bi-send"></i> Enviar</button>
     </form>
