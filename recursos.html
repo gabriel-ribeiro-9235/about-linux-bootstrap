@@ -106,7 +106,7 @@
       </button>
     </div>
 
-    <div class="accordion" id="accordionLinux" style="margin-top: 100px;">
+    <div class="accordion" id="accordionLinux" style="margin: 100px 0px 50px 0px;">
       <h2 class="text-center fw-bold display-4 mt-4 p-2">Recursos e ferramentas</h2>
       <div class="accordion-item">
         <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#terminal">Terminal</button></h2>
@@ -129,7 +129,7 @@
       <div class="accordion-item">
         <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#usuarios">Usuários e Permissões</button></h2>
         <div id="usuarios" class="accordion-collapse collapse bg-dark text-light" data-bs-parent="#accordionLinux">
-          <div class="accordion-body">O Linux permite criar e gerenciar múltiplos usuários e grupos, além de configurar permissões com comandos como <code>chmod</code> e <code>chown</code>.</div>
+          <div class="accordion-body">O Linux permite criar e gerenciar múltiplos usuários e grupos, além de configurar permissões com comandos como <code class="text-primary fw-bold">chmod</code> e <code class="text-primary fw-bold">chown</code>.</div>
         </div>
       </div>
       <div class="accordion-item">
@@ -140,9 +140,11 @@
       </div>
     </div>
 
-    <button class="btn btn-info mt-4" data-bs-toggle="modal" data-bs-target="#curiosidadeModal">
-      <i class="bi bi-lightbulb"></i> Curiosidade sobre Linux
-    </button>
+    <div class="d-flex justify-content-center">
+      <button class="btn btn-info mb-4 mt-4 p-4 fs-4 rounded-5 text-center" data-bs-toggle="modal" data-bs-target="#curiosidadeModal">
+        <i class="bi bi-terminal"></i> Comandos no Terminal
+      </button>
+    </div>
 
     <div class="modal fade" id="curiosidadeModal" tabindex="-1">
       <div class="modal-dialog">
