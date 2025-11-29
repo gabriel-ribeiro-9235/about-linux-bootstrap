@@ -154,11 +154,36 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
           <div class="modal-body">
-            <p><code>ls</code> - mostra tudo que tem no seu diretório (menos arquivos e pastas ocultas)</p>
-            <p><code>cd</code> - troca de diretório, por exemplo <code>cd assets</code> te joga para o diretório assets</p>
-            <p><code>touch</code> - cria um arquivo novo ou "toca" num já existente para mudar sua data de alteração</p>
-            <p class="mb-0"><code>rm</code> - remove um arquivo, com modificador -r pode remover uma pasta</p>
-            <p class="ps-4 mt-0"><span>Atençao! Nunca rode o comando <code class="bg-dark text-light rounded-1 p-1 fw-bold">rm -rf /</code> isso remove todo seu sistema!</span></p>
+            <p class="bg-dark rounded-1 p-1 mb-0"><code class="text-light">ls</code></p>
+            <p class="fw-bold">Mostra o que tem dentro do diretório que você está</p>
+
+            <p class="bg-dark rounded-1 p-1 mb-0"><code class="text-light">cd</code></p>
+            <p class="fw-bold">Troca de diretório, por exemplo, <code class="bg-dark text-light rounded-1 p-1 fw-normal">cd assets</code> te joga para o diretório assets</p>
+
+            <p class="bg-dark rounded-1 p-1 mb-0"><code class="text-light">touch</code></p>
+            <p class="fw-bold">Cria um arquivo novo ou "toca" num já existente para mudar sua data de alteração</p>
+            
+            <p class="bg-dark rounded-1 p-1 mb-0"><code class="text-light">rm</code></p>
+            <p class="fw-bold mb-0">Remove um arquivo, com modificador -r pode remover uma pasta</p>
+            <sup class="mt-0 text-danger fw-bold">Atençao! Nunca rode o comando <code class="bg-dark text-light rounded-1 p-1 fw-normal">rm -rf /</code> isso remove todo seu sistema!</sup>
+
+            <p class="bg-dark rounded-1 p-1 mb-0 mt-3"><code class="text-light">mkdir</code></p>
+            <p class="fw-bold">Cria um diretório novo dentro do diretório que você está</p>
+
+            <p class="bg-dark rounded-1 p-1 mb-0"><code class="text-light">rmdir</code></p>
+            <p class="fw-bold">Remove um  diretório, porém ele deve estar vazio, se houver algo dentro dele você deve usar <code class="bg-dark text-light rounded-1 p-1 fw-normal">rm -r diretório</code></p>
+
+            <p class="bg-dark rounded-1 p-1 mb-0 mt-3"><code class="text-light">whoami</code></p>
+            <p class="fw-bold">Mostra em qual usuário do sistema você está logado</p>
+
+            <p class="bg-dark rounded-1 p-1 mb-0 mt-3"><code class="text-light">pwd</code></p>
+            <p class="fw-bold">Mostra o caminho absoluto (completo) do diretório que você está no momento</p>
+
+            <p class="bg-dark rounded-1 p-1 mb-0 mt-3"><code class="text-light">cp</code></p>
+            <p class="fw-bold">Copia um arquivo ou pasta para outro diretório</p>
+
+            <p class="bg-dark rounded-1 p-1 mb-0 mt-3"><code class="text-light">mv</code></p>
+            <p class="fw-bold">Move um arquivo ou pasta para outro diretório</p>
           </div>
         </div>
       </div>
