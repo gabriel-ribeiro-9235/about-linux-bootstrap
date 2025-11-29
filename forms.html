@@ -44,13 +44,25 @@
         <input type="number" class="form-control" min="0" placeholder="Sua idade">
       </div>
       <div class="mb-3">
-        <label class="form-label">Conhece ou já usou Linux?</label>
-        <select class="form-select">
-          <option disabled selected>Escolha sua opção</option>
-          <option>Conheço e já usei</option>
-          <option>Conheço, mas nunca usei</option>
-          <option>Não conheço</option>
-        </select>
+        <label class="form-label">Conhece o Linux?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="linuxConhecimento" id="opcao1">
+          <label class="form-check-label" for="opcao1">
+          Conheço e já usei
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="linuxConhecimento" id="opcao2">
+          <label class="form-check-label" for="opcao2">
+          Conheço, mas nunca usei
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="linuxConhecimento" id="opcao3">
+          <label class="form-check-label" for="opcao3">
+          Não conheço
+          </label>
+        </div>
       </div>
       <div class="mb-3">
         <label class="form-label">Distribuição Favorita</label>
@@ -69,12 +81,24 @@
       </div>
       <div class="mb-3">
         <label class="form-label">Nível de Conhecimento</label>
-        <select class="form-select">
-          <option disabled selected>Escolha sua opção</option>
-          <option>Iniciante</option>
-          <option>Intermediário</option>
-          <option>Avançado</option>
-        </select>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="linuxConhecimento" id="opcao1">
+          <label class="form-check-label" for="opcao1">
+          Iniciante
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="linuxConhecimento" id="opcao2">
+          <label class="form-check-label" for="opcao2">
+          Intermediário
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="linuxConhecimento" id="opcao3">
+          <label class="form-check-label" for="opcao3">
+          Avançado
+          </label>
+        </div>
       </div>
       <div class="mb-3">
         <label class="form-label">Quanto você usa o Linux no seu dia a dia numa escala de 0 a 10?</label>
